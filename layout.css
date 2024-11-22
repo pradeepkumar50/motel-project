@@ -1,0 +1,154 @@
+.body {
+    background-color: white;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    color: white;
+    background-color: rgb(116, 110, 110);
+    padding: 20px;
+    border: 1px solid rgb(126, 116, 116);
+}
+
+.logo {
+    width: 20%;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+}
+
+div.logo p a {
+    color: white;
+    text-decoration: none;
+}
+
+.list li {
+    display: inline-block;
+    list-style-type: none;
+    width: 15%;
+    text-align: center;
+    font-size: 17px;
+}
+
+div.list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.list {
+    float: right;
+    width: 54%;
+    text-align: right;
+}
+
+.section {
+    background-image: url("https://img.hwnstatic.com/500/350/80/false/S9z7b46NbIHi:mh2q5WxMn4RKFPJS6cqAlQnm8jgrw07uJ1TwkfeZ2:z6EuJb9P.f32giKbcfCkbCrE6kZxqBt6slSRDUQFZBzxGONA7zidNEcNp7X.KP:498bOa2V7snkBaQJuYOz3PP6sBXcUwend5AJbRWV:8q:0sMklfhKCid3xEAj:4hT2LwNP5gg__");
+    height: 500px;
+    position: relative;
+}
+
+.section-content {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+	opacity: 0.6;
+	color: white;
+    text-align: center;
+}
+
+div.section-content h1 {
+    font-size: 40px;
+}
+
+div.section-content button {
+    padding: 8px;
+    background-color: green;
+    color: white;
+}
+
+div.section-content button:hover {
+    background-color: orange;
+}
+
+div.section-content span {
+    color: orange;
+}
+
+.main-images {
+    display: flex;
+}
+
+.img-1 img { 
+    height: 300px;
+}
+
+.img-history {
+    height: 300px;
+    text-align: center;
+    background-color: rgb(98, 96, 96);
+    color: white;
+} 
+
+div.img-history p {
+    text-indent: 16px;
+    margin: 10px;
+}
+
+div.img-history button {
+    padding: 16px;
+}
+
+div.img-history h2 span {
+    color: orange;
+}
+
+.main-icons {
+    margin-top: -4px;
+    margin-right: -5px;
+}
+
+.location-icon {
+    background-color: rgb(233, 233, 228);;
+    text-align: center;
+    display: inline-block;
+    height: 250px;
+    width: 35%;
+}
+.meals-icon {
+    height: 250px;
+    width: 32%;
+    background-color: orange;
+    text-align: center;
+    display: inline-block;
+}
+.fitness-icon {
+    background-color: rgb(233, 233, 228);
+    text-align: center;
+    display: inline-block;
+    height: 250px;
+    width: 32%;
+}
+
+div.fitness-icon {
+    padding-right: 8.5px;
+}
+
+div.meals-icon {
+    margin: 0 -4px;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(116, 110, 110);
+    padding: 18px;
+    margin-right: 0px;
+}
+
+div.footer p {
+    text-align: center;
+}

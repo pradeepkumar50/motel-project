@@ -1,0 +1,135 @@
+.body {
+    background-color: white;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    color: white;
+    background-color: rgb(116, 110, 110);
+    padding: 20px;
+    border: 1px solid rgb(126, 116, 116);
+}
+
+.logo {
+    width: 20%;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.logo p a {
+    color: white;
+    text-decoration: none;
+}
+
+.list li {
+    display: inline-block;
+    list-style-type: none;
+    width: 15%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.list {
+    float: right;
+    width: 54%;
+    text-align: right;
+}
+
+div.list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    color: orange;
+    clear: both;
+}
+
+div.contact-form span {
+    color: orange;
+}
+
+.contact-form {
+    padding: 0px 63px ;
+}
+
+input {
+    width: 75%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.email {
+    margin-top: 10px;
+}
+
+.message {
+    margin-top: 10px;
+} 
+
+textarea {
+    width: 77%;
+}
+
+button {
+    padding: 12px 20px;
+    color: white;
+    background-color: black;
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+
+.main-icons {
+    margin-top: 15px;
+}
+
+.location-icon {
+    background-color: rgb(116, 110, 110);
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    width: 35%;
+    color: white;
+}
+.meals-icon {
+    height: 200px;
+    width: 32%;
+    background-color: rgb(116, 110, 110);
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+.fitness-icon {
+    background-color: rgb(116, 110, 110);
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    width: 32%;
+    color: white;
+}
+
+div.fitness-icon {
+    padding-right: 8.5px;
+}
+
+div.meals-icon {
+    margin: 0 -4px;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(78, 74, 74);
+    padding: 18px;
+    margin-right: 5px;
+}
+
+div.footer p {
+    text-align: center;
+}
